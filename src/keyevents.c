@@ -153,8 +153,8 @@ void init_keyevents(void) {
 	feh_set_kb("scroll_right_page", 8, XK_Right, 0, 0          , 0, 0);
 	feh_set_kb("scroll_down_page" , 8, XK_Down , 0, 0          , 0, 0);
 	feh_set_kb("scroll_up_page" , 8, XK_Up   , 0, 0          , 0, 0);
-	feh_set_kb("prev_img"  , 0, XK_Left      , 0, XK_p         , 0, XK_BackSpace);
-	feh_set_kb("next_img"  , 0, XK_Right     , 0, XK_n         , 0, XK_space);
+	feh_set_kb("prev_img"  , 0, XK_Left      , 0, XK_h         , 0, XK_BackSpace);
+	feh_set_kb("next_img"  , 0, XK_Right     , 0, XK_l         , 0, XK_space);
 	feh_set_kb("jump_back" , 0, XK_Page_Up   , 0, XK_KP_Page_Up, 0, 0);
 	feh_set_kb("jump_fwd"  , 0, XK_Page_Down , 0, XK_KP_Page_Down,0,0);
 	feh_set_kb("prev_dir"  , 0, XK_bracketleft, 0, 0           , 0, 0);
@@ -176,8 +176,8 @@ void init_keyevents(void) {
 	feh_set_kb("action_7"  , 0, XK_7         , 0, XK_KP_7      , 0, 0);
 	feh_set_kb("action_8"  , 0, XK_8         , 0, XK_KP_8      , 0, 0);
 	feh_set_kb("action_9"  , 0, XK_9         , 0, XK_KP_9      , 0, 0);
-	feh_set_kb("zoom_in"   , 0, XK_Up        , 0, XK_KP_Add    , 0, 0);
-	feh_set_kb("zoom_out"  , 0, XK_Down      , 0, XK_KP_Subtract,0, 0);
+	feh_set_kb("zoom_in"   , 0, XK_Up        , 0, XK_k         , 0, 0);
+	feh_set_kb("zoom_out"  , 0, XK_Down      , 0, XK_j         ,0, 0);
 	feh_set_kb("zoom_default" , 0, XK_KP_Multiply, 0, XK_asterisk,0, 0);
 	feh_set_kb("zoom_fit"  , 0, XK_KP_Divide , 0, XK_slash     , 0, 0);
 	feh_set_kb("zoom_fill" , 0, XK_exclam    , 0, 0            , 0, 0);
